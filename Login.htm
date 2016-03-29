@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
-<head><style type="text/css">
+<head>
+<style type="text/css">
   .p
   {
     font-family: "calibri", Garamond, 'Comic Sans';
-  }
   }
   .t
   {
@@ -14,7 +15,7 @@ width: 100%;
 max-height: 10%;
 background: #262626;
 float: bottom;
-margin: 13% 0 1% 0;
+margin: 3.5% 0 1% 0;
 }
 address {
 font-size : 15px; 
@@ -23,7 +24,7 @@ color: #efefef;
 padding: 1% 0;
 }
 </style>
-  <title>About Us</title>
+  <title>Login</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -44,46 +45,39 @@ padding: 1% 0;
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-    	 <a class="navbar-brand" href="C:\Users\ANKIT\Desktop\Hackathon\Hackthon.html">Home</a>
+    <a class="navbar-brand" href="C:\Users\ANKIT\Desktop\Hackathon\Hackthon.html">Home</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Apply</a></li>
+      <li ><a href="C:\Users\ANKIT\Desktop\Hackathon\Apply.html">Apply</a></li>
       <li><a href="#">Tutors</a></li> 
-      <li><a href="C:\Users\ANKIT\Desktop\Hackathon\About.html">About Us</a></li>   
+      <li><a href="C:\Users\ANKIT\Desktop\Hackathon\About.html">About Us</a></li>  
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="C:\Users\ANKIT\Desktop\Hackathon\Login.htm"><span class="glyphicon glyphicon-user"></span>  Login</a></li>
     </ul>
   </div>
 </nav>
-<table width=100%>
-	<tr>
-		<td>
-		<p style="font-size:30px;text-align:center">Developers</p>
-	</td>
-	</tr>
+
+ <table width=100%>
+  <tr>
+    <td>
+    <p style="font-size:30px;text-align:center">Login</p>
+  </td>
+  </tr>
 </table>
-<table width=100% border=1 style="margin-top: 40px">
-<tr>
-<td  style="text-align:center">
-	<p> Ankit Gupta</p>
-	<br> <p> <b>Email ID</b>: ankitgv.kvtagore@gmail.com</p>
-	<br> <p> <b>Contact Number</b>: 8860252669</p>
-</td>
-<td  style="text-align:center">
-	<p> Deepanshu Lakra</p>
-	<br> <p> <b>Email ID</b>: lakradeepanshu96@gmail.com</p>
-	<br> <p> <b>Contact Number</b>: 8860124998</p>
-</td>
-<td  style="text-align:center">
-	<p> Mohit Puri</p>
-	<br> <p> <b>Email ID</b>: mohtigtbit@gmail.com</p>
-	<br> <p> <b>Contact Number</b>: 9654544127</p>
-</td>
-</tr>
-</table>
+
+<div class="Login">
+    <form style="margin-left:500px;margin-right:500px">
+        <div class="form-group">
+            <label for="f1">Email</label>
+            <input type="email" class="form-control" id="f1" placeholder="Enter the Email : ">
+        </div>
+        <div class="form-group">
+            <label for="f2">Password</label>
+            <input type="password" class="form-control" id="f2" placeholder="Enter the Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+
 </body>
-<footer>
-<address>&copy; Copyright 2012 All Rights Reserved www.yourdomain.com</address>
-</footer>
 </html>
